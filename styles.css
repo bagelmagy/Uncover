@@ -309,42 +309,6 @@ nav ul li a:hover {
   font-size: 1.1rem;
 }
 
-/* Contact Section */
-.contact {
-  padding: 100px 0;
-  background-color: var(--background);
-  text-align: center;
-}
-
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: var(--secondary);
-}
-
-.contact p {
-  color: var(--text-secondary);
-  margin-bottom: 40px;
-  font-size: 1.1rem;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.contact-item svg {
-  flex-shrink: 0;
-}
-
 /* Footer */
 footer {
   background-color: var(--secondary);
@@ -408,11 +372,6 @@ footer {
 
   .feature-grid {
     grid-template-columns: 1fr;
-  }
-
-  .contact-info {
-    flex-direction: column;
-    align-items: center;
   }
 }
 
