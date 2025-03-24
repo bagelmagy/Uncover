@@ -212,6 +212,31 @@ nav ul li a:hover {
   opacity: 0.6;
 }
 
+.user-pin {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-pin-1 {
+  top: 40%;
+  left: 60%;
+}
+
+.user-pin-2 {
+  top: 55%;
+  left: 35%;
+}
+
+.user-pin-3 {
+  top: 30%;
+  left: 45%;
+}
+
 /* Features Section */
 .features {
   padding: 100px 0;
